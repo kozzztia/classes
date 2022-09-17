@@ -54,12 +54,14 @@ function App() {
         const Petia = new Worker('Petia' ,23 , ["html" , "css"] )
         const Dru = new Worker('Dru' ,23 , ["html" , "css" , 'smoke'] )
         const Vitia = new Pro('Vitia' ,25 , ["html" , "css"] , "admin" )
+        const Den = new Pro('Den' ,27 , ["html" , "css"] , "admin" )
 
 
         Vasia.greeting()
         Petia.greeting()
         Vitia.greeting()
         Dru.greeting()
+        Den.greeting()
         Vitia.name= "Boris";
         console.log(Vitia.role)
     }

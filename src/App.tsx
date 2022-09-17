@@ -62,8 +62,8 @@ function App() {
         Vitia.greeting()
         Dru.greeting()
         Den.greeting()
-        Vitia.name= "Boris";
-        Den.name= "bodris";
+        Vitia.name = "Victor";
+        Den.name = "Denis";
         console.log(Vitia.role)
     }
   return (

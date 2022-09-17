@@ -63,6 +63,7 @@ function App() {
         Dru.greeting()
         Den.greeting()
         Vitia.name= "Boris";
+        Den.name= "bodris";
         console.log(Vitia.role)
     }
   return (
